@@ -151,7 +151,7 @@ cat /proc/
 自分のシェルのPIDを確認
 ```
 ps -efL
-ptree
+pstree
 echo $$
 ```
 
