@@ -430,3 +430,12 @@ if __name__ == '__main__':
 GitHubにアップしたら終了です。
 
 表示用のJavaScriptと組み合わせたり、データベースに座標を保存したりすると、Webシステムになりますね。
+
+---
+
+## インストールコマンド
+
+```
+sudo apt install -y python3-pip
+pip3 install Flask
+```

@@ -303,3 +303,25 @@ Goの方がSleep時間とほぼ同一の応答時間。goroutineが上手く働�
 GitHubにアップしたら終了です。
 
 goroutineの並行処理の強力さが見られましたね。
+
+---
+
+## インストールコマンド
+
+Ubuntu
+```
+# Go
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt-get update
+sudo apt-get install golang-go
+# Apache Bench
+sudo apt install apache2-utils
+```
+
+Mac
+```
+# Go
+brew install go
+# Apache Benchの代わり
+brew install hey
+```
