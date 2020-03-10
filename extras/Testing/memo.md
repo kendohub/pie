@@ -166,7 +166,7 @@ pip3 install coverage
 test_user_type.py
 ```
 import unittest
-import usertype as ust
+import user_type as ust
 
 class TestUserType(unittest.TestCase):
   def test_button_available(self):
