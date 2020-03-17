@@ -13,6 +13,8 @@ url: https://www.ttc-net.co.jp/
 
 Dockerのチュートリアルは、[Play with Docker Classroom](https://training.play-with-docker.com/) が分かりやすいです。
 
+DockerHubのアカウントが必要なので、アカウントを取得しましょう。[Sign Up](https://hub.docker.com/signup)
+
 ---
 
 ## Webアプリケーションでよく使う通信プロトコル
@@ -135,7 +137,7 @@ docker ps
 brctl show
   # => vethと接続されている。
 ip a
-  # =>
+  # => vethが追加されている。
 ```
 
 ---
